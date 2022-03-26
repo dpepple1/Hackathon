@@ -24,8 +24,6 @@ class ArgumentsTestHandler(tornado.web.RequestHandler):
         #name = self.get_argument('name', '')
 
         data = get_json('fakedata.json')
-        for item in data:
-            print(type(item))
         self.render('fakewebsite2.html', data=data)     # Render template with arguments
 
 
