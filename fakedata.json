@@ -159,14 +159,6 @@
           "image": "pathtoimage.jpeg",
           "learnmore": "www.fakewebsite.com"
      },
-     "pepperoni pizza":{
-          "name": "Pepperoni Pizza",
-          "score": 4,
-          "positives": ["Locally sourced", "tomato sauce is plant based"],
-          "negatives": ["Dairy is from livestock","processed pepperoni"],
-          "image": "pathtoimage.jpeg",
-          "learnmore": "www.fakewebsite.com"
-     },
      "vegan mozzarella":{
           "name": "Vegan Mozzarella",
           "score": 8,
@@ -230,5 +222,5 @@
           "negatives": ["none"],
           "image": "pathtoimage.jpeg",
           "learnmore": "www.fakewebsite.com"
-     },
+     }
 }
