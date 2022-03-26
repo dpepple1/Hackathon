@@ -5,14 +5,26 @@
 
 #footer {
     position: fixed;
-    padding: 10px 10px 0px 10px;
+    padding: 10px 0px 0px 0px;
     bottom: 0;
     width: 100%;
     /* Height of the footer*/ 
-    height: 40px;
+    height: 60px;
     background: grey;
 }
 
+#idimage{
+    position: relative;
+}
+
+img{
+    position: absolute;
+    top:10px;
+    right:10px;
+    max-width: 100px;
+    width: 10%;
+    height: auto;
+}
 #menu_landing_bar
 {
     width: 100%;
