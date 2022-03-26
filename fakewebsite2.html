@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Today's Menu</title>
+    </head>
+    <body>
+        <h1>Today's Sustainable Options</h1>
+
+        {%for item in data.values()%}
+            <h2>{{item["name"]}}</h2>
+            <p><b>Score:</b>{{item["score"]}}/10</p>
+            <p>Pros:</p>
+            <ul>
+                {%for pro in item["positives"]%}
+                    <li>{{pro}}</li>
+                {%end%}
+            </ul>
+            <p>Cons:</p>
+            <ul>
+                {%for con in item["negatives"]%}
+                    <li>{{con}}</li>
+                {%end%}
+            </ul>
+
+        {%end%}
+    </body>
+</html>

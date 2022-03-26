@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Today's Menu</title>
+    </head>
+    <body>
+        <h1>Today's Sustainable Options</h1>
+        <h2>{{name}}</h2>
+        <p><b>Score:</b>{{score}}/10</p>
+        <p>Pros:</p>
+        <ul>
+            {%for pro in pros%}
+                <li>{{pro}}</li>
+            {%end%}
+        </ul>
+        <p>Cons:</p>
+        <ul>
+            {%for con in cons%}
+                <li>{{con}}</li>
+            {%end%}
+        </ul>
+    </body>
+</html>

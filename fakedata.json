@@ -1,0 +1,18 @@
+{
+    "banana":{
+        "name": "Banana",
+        "score": 8,
+        "positives": ["Biodegradeable", "Organic", "Locally grown"],
+        "negatives": ["Peel waste"],
+        "image": "pathtoimage.jpeg",
+        "learnmore": "www.fakewebsite.com"
+    },
+    "chicken tikka masala":{
+        "name": "Chicken Tikka Masala",
+        "score": 3,
+        "positives": ["Locally Sourced"],
+        "negatives": ["Chicken requires high amounts of energy investment", "cheese is bad"],
+        "image": "pathtoimage.jpeg",
+        "learnmore": "www.fakewebsite.com"
+    }
+}
