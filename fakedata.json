@@ -17,7 +17,7 @@
    },
     "vegetable samosas":{
        "name": "Vegetable Samosas",
-       "score": 3,
+       "score": 5,
        "positives": ["Locally Sourced", "Vegetables are sustainable"],
        "negatives": ["Frozen", "Oil fried"],
        "image": "samosas.jpg",
@@ -121,7 +121,7 @@
      },
      "plant based italian sausage":{
           "name": "Plant Based Italian Sausage",
-          "score": 7,
+          "score": 9,
           "positives": ["Plant Based", "locally sourced"],
           "negatives": ["Sausage","processed"],
           "image": "italiansausage.jpg",
@@ -161,7 +161,7 @@
      },
      "vegan mozzarella":{
           "name": "Vegan Mozzarella",
-          "score": 8,
+          "score": 7,
           "positives": ["Vegan", "Locally sourced?"],
           "negatives": ["Process of making the 'cheese'"],
           "image": "veganmozzarella.jpg",
@@ -169,7 +169,7 @@
      },
      "quinoa salad":{
           "name": "Quinoa Salad",
-          "score": 7,
+          "score": 6,
           "positives": ["Vegan", "Plant Based"],
           "negatives": ["Imported quinoa"],
           "image": "quinoasalad.jpg",
@@ -177,7 +177,7 @@
      },
      "mediterranean pita chips":{
           "name": "Mediterranean Pita Chips",
-          "score": 8,
+          "score": 7,
           "positives": ["Vegan", "Plant Based","Locally sourced"],
           "negatives": ["idk"],
           "image": "mediterraneanpitachips.jpg",
@@ -185,7 +185,7 @@
      },
      "hummus with tahini":{
           "name": "Hummus with Tahini",
-          "score": 9,
+          "score": 8,
           "positives": ["Vegan", "Plant based"],
           "negatives": ["bean process"],
           "image": "hummus.jpg",
@@ -193,7 +193,7 @@
      },
      "avocado":{
           "name": "Fresh Avocado",
-          "score": 8,
+          "score": 7,
           "positives": ["Vegan", "Plant based"],
           "negatives": ["Non Local"],
           "image": "avocado.jpg",
@@ -218,7 +218,7 @@
      "sweet potato":{
           "name": "Baked Sweet Potato",
           "score": 9,
-          "positives": ["Vegan", "Locally Grown"],
+          "positives": ["High in Iron and Potassium", "Locally Grown"],
           "negatives": ["none"],
           "image": "sweetpotato.jpg",
           "learnmore": "www.fakewebsite.com"
