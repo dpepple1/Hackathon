@@ -27,7 +27,7 @@
                             <button type="button" class="btn btn-success" id='{{item["name"]}} pos' onclick="updateCounter(this.id)">+</button>
                             <button type="button" class="btn btn-success" id='{{item["name"]}} neg' onclick="updateCounter(this.id)">-</button>
                         </div>
-                        <p class="d-inline count pl-3" id='{{item["name"]}} lbl'>0</p>
+                        <p class="d-inline count pl-3" id='{{item["name"]}} lbl' servings=0>0</p>
                         {%if item["score"] > 6%}
                         <p class="d-inline score_good">{{item["score"] * 100}}</p>
                         {%elif item["score"] > 3%}
@@ -49,11 +49,11 @@
             </div>
 
             <div id="footer">
-                <a><div class="navbtn"><img class = "icoimage" src = static/images/stats2.png></div></a>
-                <a><div class="navbtn"><img class = "icoimage" src = static/images/meal.png></div></a>
-                <a><div class="navbtn"><img class = "icoimage" src = static/images/home2.png></div></a>
-                <a><div class="navbtn"><img class = "icoimage" src = static/images/star2.png></div></a>
-                <a><div class="navbtn"><img class = "icoimage" src = static/images/options2.png></div></a>
+                <a href="stats.html"><div class="navbtn"><img class = "icoimage" src = static/images/stats2.png></div></a>
+                <a href="todays_menu.html"><div class="navbtn"><img class = "icoimage" src = static/images/meal.png></div></a>
+                <a href="Home Page.html"><div class="navbtn"><img class = "icoimage" src = static/images/home2.png></div></a>
+                <a href="today.html"><div class="navbtn"><img class = "icoimage" src = static/images/star2.png></div></a>
+                <a href="https://www.google.com/search?q=soup&oq=soup&aqs=chrome..69i57j46i175i199i512j0i433i512j0i433i457i512j0i402l2j46i175i199i512j0i433i512j0i512l2.1419j0j7&sourceid=chrome&ie=UTF-8"><div class="navbtn"><img class = "icoimage" src = static/images/options2.png></div></a>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
