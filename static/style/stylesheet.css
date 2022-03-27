@@ -2,6 +2,7 @@
     font-family: titleFont;
     src: url(BAHNSCHRIFT.TTF);
 }
+
 #footer {
     position: fixed;
     padding: 10px 0px 0px 0px;
@@ -138,4 +139,11 @@ body
 .probullet
 {
     color: green;
+}
+
+.gradientBar{
+    display:block;
+    background-image: linear-gradient(to right, #FF6600, #FF0192);
+    height: 5px;
+    width: 100%;
 }
