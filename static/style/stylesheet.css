@@ -204,3 +204,8 @@ body
     color:white;
     background-color: rgb(165, 222, 115);
 }
+
+.graph{
+    width: 70%;
+    height:auto;
+}
