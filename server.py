@@ -26,7 +26,7 @@ class submitHandler(tornado.web.RequestHandler):
         #name = self.get_argument('name', '')
 
         data = get_json('fakedata.json')
-        self.render('today.html', data=data)     # Render template with arguments
+        self.render('submit.html', data=data)     # Render template with arguments
 
 class todayMenuHandler(tornado.web.RequestHandler):
     def get(self):
@@ -47,7 +47,8 @@ def main():
     application = tornado.web.Application([
         (r'/', homeHandler),
         (r'/today.html',reccommendationsHandler),
-        (r'/todays_menu.html', todayMenuHandler)
+        (r'/todays_menu.html', todayMenuHandler),
+        (r'/submit.html', submitHandler)
     ], **settings)
     application.listen(PORT)
 

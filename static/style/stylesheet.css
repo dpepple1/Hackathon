@@ -114,6 +114,7 @@ body
 {
     font-family: titleFont;
 }
+
 .submitbtn
 {
     background-color: rgb(165, 222, 115);
@@ -121,8 +122,9 @@ body
     font-family: titleFont;
     color: white;
     height:100%;
-    width:100%;
     font-size: 20pt;
+    display: inline-block;
+    width: 100%;
 }
 
 .navbtn
@@ -146,4 +148,16 @@ body
     background-image: linear-gradient(to right, #FF6600, #FF0192);
     height: 5px;
     width: 100%;
+}
+
+.submitCount
+{
+    display: inline;
+    float: right;
+}
+.buttontext
+{
+    width: 100%;
+    text-align: center;
+    display: inline;
 }
