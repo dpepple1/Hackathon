@@ -71,7 +71,7 @@ body
 .score_meh
 {
     font-size: 20pt;
-    color: yellow;
+    color: orange;
     float: right
 }
 .score_bad

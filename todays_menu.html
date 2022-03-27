@@ -14,19 +14,27 @@
             </div>
 
             <ul class="list-group ">
-                
+                {%for item in sorted(data.values(), key = lambda a: a["name"])%}
                 <li class="list-group-item">
-                    <img class="mb-1" src="chicken_tikka_masala.jpg" alt="Chicken Tikka Masala" width="100" height="100">
+                    <img class="mb-1" src='static/images/{{item["image"]}}' alt='item["name"]' width="100" height="100">
                     <div class="organizer">
-                        <h5 class="d-inline menu_item_title"><b>Chicken Tikka Masala</b></h5>
+                        <h5 class="d-inline menu_item_title"><b>{{item["name"]}}</b></h5>
+                        <br>
                         <div class="btn-group" role="group" aria-label="Button Group">
                             <button type="button" class="btn btn-success">+</button>
                             <button type="button" class="btn btn-success">-</button>
                         </div>
                         <p class="d-inline count pl-3">1</p>
-                        <p class="d-inline score_bad">300</p>
+                        {%if item["score"] > 6%}
+                        <p class="d-inline score_good">{{item["score"] * 100}}</p>
+                        {%elif item["score"] > 3%}
+                        <p class="d-inline score_meh">{{item["score"] * 100}}</p>
+                        {%else%}
+                        <p class="d-inline score_bad">{{item["score"] * 100}}</p>
+                        {%end if%}
                     </div>
                 </li>
+                {%end%}
                 
             </ul>
 
