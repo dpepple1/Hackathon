@@ -177,6 +177,15 @@ body
     margin-bottom: 0px;
     border: 0px;
 }
+.score_label2{
+    max-height: 30px;
+    font-size:30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+}
 .score_num{
     max-height: 120px;
     font-size:100px;
@@ -186,7 +195,15 @@ body
     margin-bottom: 0px;
     border: 0px;
 }
-
+.score_num2{
+    max-height: 90px;
+    font-size:80px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+}
 .box{
     background-color: rgb(165, 222, 115);
 }
@@ -208,4 +225,11 @@ body
 .graph{
     width: 70%;
     height:auto;
+}
+.stats_block{
+    color: white;
+    text-align: center;
+    max-height: 250px;
+    font-family: titleFont;
+    background-color: rgb(165, 222, 115);
 }
