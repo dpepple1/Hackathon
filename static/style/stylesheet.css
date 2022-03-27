@@ -55,6 +55,14 @@ body
     display:table-cell; 
     vertical-align: middle;
 }
+#today_landing
+{
+    width: 100%;
+    height: 170px;
+    background-color: rgb(165, 222, 115);
+    text-align:center;
+    display:table;
+}
 .sub_heading
 {
     padding-top: 10px;
@@ -126,4 +134,8 @@ body
 .icoimage
 {
     height: 80%;
+}
+.probullet
+{
+    color: green;
 }

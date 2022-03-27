@@ -11,7 +11,7 @@ class ArgumentsTestHandler(tornado.web.RequestHandler):
         #name = self.get_argument('name', '')
 
         data = get_json('fakedata.json')
-        self.render('todays_menu.html', data=data)     # Render template with arguments
+        self.render('today.html', data=data)     # Render template with arguments
         
 
 # Main Execution
