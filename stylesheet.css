@@ -2,6 +2,10 @@
     font-family: titleFont;
     src: url(BAHNSCHRIFT.TTF);
 }
+@font-face{
+    font-family: LoraFont;
+    src: url(Lora-Medium.ttf);
+}
 #footer {
     position: fixed;
     padding: 10px 0px 0px 0px;

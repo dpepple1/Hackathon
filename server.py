@@ -6,12 +6,16 @@ import os
 
 PORT = 9999
 
-class homeHandler(tornado.web.RequestHandler):
+class signinHandler(tornado.web.RequestHandler):
     def get(self):
         data = get_json('fakedata.json')
-        self.render('todays_menu.html', data=data)
+        self.render('signin.html', data=data)
         result = self.get_argument("servings", "")
         print(result)
+
+class homeHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.render('HomePage.html')
 
 class reccommendationsHandler(tornado.web.RequestHandler):
     def get(self):
@@ -33,7 +37,12 @@ class todayMenuHandler(tornado.web.RequestHandler):
         data = get_json('fakedata.json')
         self.render('todays_menu.html', data=data)
 
-        
+class statsHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.render('stats.html')
+
+
+
 def get_json(PATH):
     with open(PATH, 'r') as fh:
         data = json.load(fh)
@@ -45,10 +54,12 @@ def main():
         "static_path": os.path.join(os.path.dirname(__file__), "static")
     }
     application = tornado.web.Application([
-        (r'/', homeHandler),
+        (r'/', signinHandler),
+        (r'/HomePage.html', homeHandler),
         (r'/today.html',reccommendationsHandler),
         (r'/todays_menu.html', todayMenuHandler),
-        (r'/submit.html', submitHandler)
+        (r'/submit.html', submitHandler),
+        (r'/stats.html', statsHandler)
     ], **settings)
     application.listen(PORT)
 
