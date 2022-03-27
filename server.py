@@ -9,7 +9,7 @@ PORT = 9999
 class homeHandler(tornado.web.RequestHandler):
     def get(self):
         data = get_json('fakedata.json')
-        self.render('todays_menu.html', data=data)
+        self.render('signin.html', data=data)
         result = self.get_argument("servings", "")
         print(result)
 

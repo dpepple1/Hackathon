@@ -2,7 +2,10 @@
     font-family: titleFont;
     src: url(BAHNSCHRIFT.TTF);
 }
-
+@font-face{
+    font-family: LoraFont;
+    src: url(Lora-Medium.ttf);
+}
 #footer {
     position: fixed;
     padding: 10px 0px 0px 0px;
@@ -146,4 +149,9 @@ body
     background-image: linear-gradient(to right, #FF6600, #FF0192);
     height: 5px;
     width: 100%;
+}
+.Logo{
+    font-family: LoraFont;
+    color: green;
+    font-size: 400%;
 }
