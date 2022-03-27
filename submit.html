@@ -31,17 +31,31 @@
                 </li>
             </ul>
 
-            <div id="submit_footer">
-                <a href="Overview.html">
-                    <div class = "submitbtn">
-                        <p class="buttontxt">Calculate Score!</p>
-                    </div>
-                </a>
+            <div class="center">
+                <div class="box_sub">
+                  <div id="score_label_sub"><p>Your Score</p></div>
+                  <div id="score_num_sub"><p>696</p></div>
+                  <div id="arrow_sub"><p>&#9660</p></div>
+                  <div id="bar" class="gradientBar"></div>
+                  <div id="message_sub"><p>Great!</p></div>
+                </div>
             </div>
+            <br>
+            <br>
+
+            <div id="submit_footer">
+                <div class = "submitbtn" onclick="showBar()">
+                    <p class="buttontxt">Calculate Score!</p>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
             <div id="footer">
                 <a href="stats.html"><div class="navbtn"><img class = "icoimage" src = static/images/stats2.png></div></a>
                 <a href="todays_menu.html"><div class="navbtn"><img class = "icoimage" src = static/images/meal.png></div></a>
-                <a href="Home Page.html"><div class="navbtn"><img class = "icoimage" src = static/images/home2.png></div></a>
+                <a href="HomePage.html"><div class="navbtn"><img class = "icoimage" src = static/images/home2.png></div></a>
                 <a><div class="navbtn"><img class = "icoimage" src = static/images/star2.png></div></a>
                 <a href="https://www.google.com/search?q=soup&oq=soup&aqs=chrome..69i57j46i175i199i512j0i433i512j0i433i457i512j0i402l2j46i175i199i512j0i433i512j0i512l2.1419j0j7&sourceid=chrome&ie=UTF-8"><div class="navbtn"><img class = "icoimage" src = static/images/options2.png></div></a>
             </div>
@@ -50,5 +64,22 @@
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            function showBar()
+            {
+                scorelbl = document.getElementById('score_label_sub');
+                score = document.getElementById('score_num_sub');
+                arrow = document.getElementById('arrow_sub');
+                bar = document.getElementById('bar');
+                msg = document.getElementById('message_sub');
+
+                scorelbl.style.visibility = "visible";
+                score.style.visibility = "visible";
+                arrow.style.visibility = "visible";
+                bar.style.visibility = "visible";
+                msg.style.visibility = "visible";
+
+            }
+        </script>
     </body>
 </html>
