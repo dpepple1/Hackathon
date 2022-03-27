@@ -9,11 +9,11 @@
     },
     "chicken tikka masala":{
         "name": "Chicken Tikka Masala",
-        "score": 4,
+        "score": 5,
         "positives": ["Chicken is far more sustainable than beef"],
         "negatives": ["Dairy is from livestock (methane emissions)","Chicken is from livestock (methane emissions)"],
         "image": "chicken_tikka_masala.jpg",
-        "learnmore": "www.fakewebsite.com"
+        "learnmore": "https://www.chickencheck.in/sustainability/"
    },
     "vegetable samosas":{
        "name": "Vegetable Samosas",
@@ -53,7 +53,7 @@
           "positives": [  "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["n/a" ],
           "image": "naan.jpg",
-          "learnmore": "www.fakewebsite.com"
+          "learnmore": "https://thesustainabilityalliance.us/wp-content/uploads/2022/01/211125-US-Wheat_Sustainability-Updated.pdf"
      },
      "alfredo sauce":{
           "name": "Alfredo Sauce",
@@ -82,7 +82,7 @@
      "tortellini":{
           "name": "Tortellini",
           "score": 6,
-          "positives": [ "CO2 emissions from plants are 10-50% lower than animals""],
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["Cheese is from livestock (methane emissions)" ],
           "image": "tortellini.jpg",
           "learnmore": "www.fakewebsite.com"
@@ -161,7 +161,7 @@
      },
      "vegan mozzarella":{
           "name": "Vegan Mozzarella",
-          "score": 19,
+          "score": 9,
           "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["Process of making the 'cheese'"],
           "image": "veganmozzarella.jpg",
@@ -213,7 +213,7 @@
           "positives": ["Vegan", "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": [ "none"],
           "image": "broccoli.jpg",
-          "learnmore": "www.fakewebsite.com"
+          "learnmore": "https://healabel.com/b-ingredients/broccoli"
      },
      "sweet potato":{
           "name": "Baked Sweet Potato",
