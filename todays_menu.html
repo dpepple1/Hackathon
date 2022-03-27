@@ -1,12 +1,42 @@
+<!doctype html>
 <html>
     <head>
         <title>EcoMenu | Todays' Menu</title>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="static/style/stylesheet.css">
+        <!-- <link rel="stylesheet" href="css/main.css"> -->
     </head>
+    <body>
+        <div class="container" id="bsr-wrapper">
+            <div id ="menu_landing_bar">
+                <h1 class = "landing_title">Today's Menu</h1>
+            </div>
 
-    <body id="body">
-        <div id ="menu_landing_bar">
-            <h1 class = "main_title">Today's Menu</h1>
+            <ul class="list-group ">
+                
+                <li class="list-group-item">
+                    <img class="mb-1" src="chicken_tikka_masala.jpg" alt="Chicken Tikka Masala" width="100" height="100">
+                    <div class="organizer">
+                        <h5 class="d-inline menu_item_title"><b>Chicken Tikka Masala</b></h5>
+                        <div class="btn-group" role="group" aria-label="Button Group">
+                            <button type="button" class="btn btn-success">+</button>
+                            <button type="button" class="btn btn-success">-</button>
+                        </div>
+                        <p class="d-inline count pl-3">1</p>
+                        <p class="d-inline score_bad">300</p>
+                    </div>
+                </li>
+                
+            </ul>
+
+            <div id="footer">
+                PLACEHOLDER
+            </div>
         </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
-</html>
+
