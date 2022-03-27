@@ -5,8 +5,12 @@ def calculateScore(score, servings):
     return int(finalscore1)
 
 def calculateMealScore(chosenItems):
+    total = 0
     for item in chosenItems:
-        
+        total += calculateMealScore(item[0], item[1])
+
+    finalScore = int(total/len(chosenItems))
+    return finalScore
 
 
 score = 300
