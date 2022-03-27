@@ -14,7 +14,6 @@ class ArgumentsTestHandler(tornado.web.RequestHandler):
         self.render('todays_menu.html', data=data)     # Render template with arguments
         
 
-
 # Main Execution
 
 
