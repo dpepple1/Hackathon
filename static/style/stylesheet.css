@@ -213,9 +213,12 @@ body
     color:white;
     background-color: rgb(165, 222, 115);
 }
-
 .submitCount
 {
     display: inline;
     float: right;
+}
+.graph{
+    width: 70%;
+    height:auto;
 }
