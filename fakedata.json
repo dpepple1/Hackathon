@@ -12,7 +12,7 @@
         "score": 3,
         "positives": ["Locally Sourced"],
         "negatives": ["Chicken requires high amounts of energy investment", "cheese is bad"],
-        "image": "pathtoimage.jpg",
+        "image": "chicken_tikka_masala.jpg",
         "learnmore": "www.fakewebsite.com"
    },
     "vegetable samosas":{
@@ -36,7 +36,7 @@
           "score": 7,
           "positives": [ "Locally grown beans", "Vegetables are sustainable"],
           "negatives": ["Cheese is from livestock, methane contributions"],
-          "image": "greenbeans.jpg",
+          "image": "greanbeans.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "steamed basmati":{
@@ -104,11 +104,11 @@
           "learnmore": "www.fakewebsite.com"
      },
      "sliced pepperoni":{
-          "name": "Italian Sausage",
+          "name": "Sliced Pepperoni",
           "score": 4,
           "positives": ["taste good"],
           "negatives": ["processed" ],
-          "image": "slicedpepperoni.jpg",
+          "image": "pepperoni.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "meatball":{
