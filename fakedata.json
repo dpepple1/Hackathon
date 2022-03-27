@@ -1,24 +1,24 @@
 {
     "banana":{
         "name": "Banana",
-        "score": 8,
-        "positives": ["Biodegradeable", "Organic", "Locally grown"],
+        "score": 9,
+        "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
         "negatives": ["Peel waste"],
         "image": "banana.jpg",
         "learnmore": "www.fakewebsite.com"
     },
     "chicken tikka masala":{
         "name": "Chicken Tikka Masala",
-        "score": 3,
-        "positives": ["Locally Sourced"],
-        "negatives": ["Chicken requires high amounts of energy investment", "cheese is bad"],
+        "score": 4,
+        "positives": ["Chicken is far more sustainable than beef"],
+        "negatives": ["Dairy is from livestock (methane emissions)","Chicken is from livestock (methane emissions)"],
         "image": "chicken_tikka_masala.jpg",
         "learnmore": "www.fakewebsite.com"
    },
     "vegetable samosas":{
        "name": "Vegetable Samosas",
-       "score": 5,
-       "positives": ["Locally Sourced", "Vegetables are sustainable"],
+       "score": 9,
+       "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
        "negatives": ["Frozen", "Oil fried"],
        "image": "samosas.jpg",
        "learnmore": "www.fakewebsite.com"
@@ -26,14 +26,14 @@
      "palak paneer":{
           "name": "Palak Paneer",
           "score": 6,
-          "positives": ["Locally Sourced", "Locally grown", "Vegetables are sustainable"],
-          "negatives": ["cheese comes from livestock, methane contributions"],
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
+          "negatives": ["Cheese is from livestock (methane emissions)"],
           "image": "palakpaneer.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "coconut green beans":{
           "name": "Coconut Green Beans",
-          "score": 7,
+          "score": 10,
           "positives": [ "Locally grown beans", "Vegetables are sustainable"],
           "negatives": ["Cheese is from livestock, methane contributions"],
           "image": "greanbeans.jpg",
@@ -41,40 +41,40 @@
      },
      "steamed basmati":{
           "name": "Steamed Basmati",
-          "score": 4,
-          "positives": [ "plant based"],
+          "score": 9,
+          "positives": [  "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["Imported" ],
           "image": "basmati.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "naan":{
           "name": "Naan",
-          "score": 6,
-          "positives": [ "Plant based", "Locally sourced"],
-          "negatives": ["" ],
+          "score": 10,
+          "positives": [  "CO2 emissions from plants are 10-50% lower than animals"],
+          "negatives": ["n/a" ],
           "image": "naan.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "alfredo sauce":{
           "name": "Alfredo Sauce",
-          "score": 5,
+          "score": 4,
           "positives": [  "Locally sourced"],
-          "negatives": ["Dairy comes from livestock" ],
+          "negatives": ["Cheese is from livestock (methane emissions)" ],
           "image": "alfredosauce.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "marinara sauce":{
           "name": "Marinara Sauce",
-          "score": 5,
-          "positives": ["Vegetables are good"],
+          "score": 9,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["sauce process"],
           "image": "marinarasauce.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "cavatappi":{
           "name": "Cavatappi Pasta",
-          "score": 7,
-          "positives": ["Plant based", "Locally Sourced","love pasta"],
+          "score": 9,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["none godbles" ],
           "image": "cavatappi.jpg",
           "learnmore": "www.fakewebsite.com"
@@ -82,8 +82,8 @@
      "tortellini":{
           "name": "Tortellini",
           "score": 6,
-          "positives": ["Plant based", "Locally Sourced","love pasta"],
-          "negatives": ["Cheese comes from livestock" ],
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals""],
+          "negatives": ["Cheese is from livestock (methane emissions)" ],
           "image": "tortellini.jpg",
           "learnmore": "www.fakewebsite.com"
      },
@@ -91,29 +91,29 @@
           "name": "Grilled Chicken Breast",
           "score": 5,
           "positives": ["Locally Sourced"],
-          "negatives": ["livestock" ],
+          "negatives": ["Chicken is from livestock (methane emissions)"],
           "image": "grilledchicken.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "italian sausage":{
           "name": "Italian Sausage",
-          "score": 5,
+          "score": 8,
           "positives": ["Locally Sourced"],
-          "negatives": ["processing?" ],
+          "negatives": ["Sausage is from pigs (methane emissions)" ],
           "image": "italiansausage.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "sliced pepperoni":{
           "name": "Sliced Pepperoni",
-          "score": 4,
+          "score": 5,
           "positives": ["taste good"],
-          "negatives": ["processed" ],
+          "negatives": ["Pepperoni is from cows (methane emissions)"],
           "image": "pepperoni.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "meatball":{
           "name": "Meatballs",
-          "score": 4,
+          "score": 2,
           "positives": ["taste good"],
           "negatives": ["Processed", "Livestock" ],
           "image": "meatball.jpg",
@@ -121,103 +121,103 @@
      },
      "plant based italian sausage":{
           "name": "Plant Based Italian Sausage",
-          "score": 9,
-          "positives": ["Plant Based", "locally sourced"],
+          "score": 8,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["Sausage","processed"],
           "image": "italiansausage.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "breadsticks":{
           "name": "Garlic Parmesan Breadsticks",
-          "score": 6,
-          "positives": ["Plant Based", "Locally grown", "Bread is so so good"],
-          "negatives": ["Dairy is from livestock"],
+          "score": 10,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
+          "negatives": ["Cheese is from livestock (methane emissions)"],
           "image": "breadsticks.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "sausage pizza":{
           "name": "Sausage Pizza",
-          "score": 4,
+          "score": 6,
           "positives": ["Locally sourced"],
-          "negatives": ["Dairy is from livestock", "Sausage processing"],
+          "negatives": ["Cheese is from livestock (methane emissions)","Sausage is from pigs (methane emissions)"],
           "image": "sausagepizza.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "cheese pizza":{
           "name": "Cheese Pizza",
-          "score": 5,
+          "score": 6,
           "positives": ["Locally sourced"],
-          "negatives": ["Dairy is from livestock"],
+          "negatives": ["Cheese is from livestock (methane emissions)"],
           "image": "cheesepizza.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "pepperoni pizza":{
           "name": "Pepperoni Pizza",
-          "score": 4,
-          "positives": ["Locally sourced", "tomato sauce is plant based"],
-          "negatives": ["Dairy is from livestock","processed pepperoni"],
+          "score": 5,
+          "positives": ["Locally sourced"],
+          "negatives": ["Cheese is from livestock (methane emissions)", "Pepperoni is from cows (methane emissions)"],
           "image": "pepperonipizza.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "vegan mozzarella":{
           "name": "Vegan Mozzarella",
-          "score": 7,
-          "positives": ["Vegan", "Locally sourced?"],
+          "score": 19,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["Process of making the 'cheese'"],
           "image": "veganmozzarella.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "quinoa salad":{
           "name": "Quinoa Salad",
-          "score": 6,
-          "positives": ["Vegan", "Plant Based"],
-          "negatives": ["Imported quinoa"],
+          "score": 9,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
+          "negatives": ["n/a"],
           "image": "quinoasalad.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "mediterranean pita chips":{
           "name": "Mediterranean Pita Chips",
-          "score": 7,
-          "positives": ["Vegan", "Plant Based","Locally sourced"],
+          "score": 10,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["idk"],
           "image": "mediterraneanpitachips.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "hummus with tahini":{
           "name": "Hummus with Tahini",
-          "score": 8,
-          "positives": ["Vegan", "Plant based"],
+          "score": 10,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["bean process"],
           "image": "hummus.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "avocado":{
           "name": "Fresh Avocado",
-          "score": 7,
-          "positives": ["Vegan", "Plant based"],
+          "score": 10,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
           "negatives": ["Non Local"],
           "image": "avocado.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "cauliflower":{
           "name": "Cauliflower",
-          "score": 9,
-          "positives": ["Vegan", "Locally Grown"],
-          "negatives": ["cabbage family", "parts of the vegetable get thrown away"],
+          "score": 10,
+          "positives": [ "CO2 emissions from plants are 10-50% lower than animals"],
+          "negatives": ["n/a"],
           "image": "cauliflower.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "broccoli florets":{
           "name": "Broccoli Florets",
-          "score": 9,
-          "positives": ["Vegan", "Locally Grown"],
-          "negatives": ["cabbage family", "parts of the vegetable get thrown away"],
+          "score": 10,
+          "positives": ["Vegan", "CO2 emissions from plants are 10-50% lower than animals"],
+          "negatives": [ "none"],
           "image": "broccoli.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "sweet potato":{
           "name": "Baked Sweet Potato",
-          "score": 9,
+          "score": 10,
           "positives": ["High in Iron and Potassium", "Locally Grown"],
           "negatives": ["none"],
           "image": "sweetpotato.jpg",
