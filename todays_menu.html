@@ -7,10 +7,13 @@
         <link rel="stylesheet" type="text/css" href="static/style/stylesheet.css">
         <!-- <link rel="stylesheet" href="css/main.css"> -->
     </head>
-    <body>
+    <body style ="background-color: rgb(165, 222, 115);">
         <div class="container" id="bsr-wrapper">
             <div id ="menu_landing_bar">
                 <h1 class = "landing_title">Today's Menu</h1>
+            </div>
+            <div id ="menu_landing_bar" style="height:60px;">
+                <h3 class = "sub_heading">Select what you ate today:</h3>
             </div>
 
             <ul class="list-group ">
@@ -21,10 +24,10 @@
                         <h5 class="d-inline menu_item_title"><b>{{item["name"]}}</b></h5>
                         <br>
                         <div class="btn-group" role="group" aria-label="Button Group">
-                            <button type="button" class="btn btn-success">+</button>
-                            <button type="button" class="btn btn-success">-</button>
+                            <button type="button" class="btn btn-success" id='{{item["name"]}} pos' onclick="updateCounter(this.id)">+</button>
+                            <button type="button" class="btn btn-success" id='{{item["name"]}} neg' onclick="updateCounter(this.id)">-</button>
                         </div>
-                        <p class="d-inline count pl-3">1</p>
+                        <p class="d-inline count pl-3" id='{{item["name"]}} lbl'>0</p>
                         {%if item["score"] > 6%}
                         <p class="d-inline score_good">{{item["score"] * 100}}</p>
                         {%elif item["score"] > 3%}
@@ -35,16 +38,54 @@
                     </div>
                 </li>
                 {%end%}
-                
             </ul>
+            <br><br><br><br><br><br>
+            <div id="submit_footer">
+                <a href="Overview.html">
+                    <div class = "submitbtn">
+                        Submit
+                    </div>
+                </a>
+            </div>
 
             <div id="footer">
-                PLACEHOLDER
+                <a><div class="navbtn"><img class = "icoimage" src = static/images/stats.png></div></a>
+                <a><div class="navbtn"><img class = "icoimage" src = static/images/meal.png></div></a>
+                <a><div class="navbtn"><img class = "icoimage" src = static/images/home.png></div></a>
+                <a><div class="navbtn"><img class = "icoimage" src = static/images/leaf.png></div></a>
+                <a><div class="navbtn"><img class = "icoimage" src = static/images/options.png></div></a>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            function updateCounter(id)
+            {
+                //Updates the counter in the list items when the button is clicked
+                let button = document.getElementById(id);
+                let splitid = id.split(' ');
+                let lblid = '';
+                
+                for(let i =0; i < splitid.length -1; i++)
+                {
+                    lblid += splitid[i] + " ";
+                }
+                lblid += 'lbl';
+                let label = document.getElementById(lblid);
+                if (id.endsWith('pos'))
+                {
+                    label.innerHTML = Number(label.innerHTML) + 1; 
+                }
+                else
+                {
+                    if(Number(label.innerHTML) > 0)
+                    {
+                        label.innerHTML = Number(label.innerHTML) - 1;
+                    }
+                }
+            }
+        </script>
     </body>
 
