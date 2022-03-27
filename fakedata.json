@@ -4,7 +4,7 @@
         "score": 8,
         "positives": ["Biodegradeable", "Organic", "Locally grown"],
         "negatives": ["Peel waste"],
-        "image": "pathtoimage.jpeg",
+        "image": "banana.jpg",
         "learnmore": "www.fakewebsite.com"
     },
     "chicken tikka masala":{
@@ -12,7 +12,7 @@
         "score": 3,
         "positives": ["Locally Sourced"],
         "negatives": ["Chicken requires high amounts of energy investment", "cheese is bad"],
-        "image": "pathtoimage.jpeg",
+        "image": "chicken_tikka_masala.jpg",
         "learnmore": "www.fakewebsite.com"
    },
     "vegetable samosas":{
@@ -20,7 +20,7 @@
        "score": 3,
        "positives": ["Locally Sourced", "Vegetables are sustainable"],
        "negatives": ["Frozen", "Oil fried"],
-       "image": "pathtoimage.jpeg",
+       "image": "samosas.jpg",
        "learnmore": "www.fakewebsite.com"
   },
      "palak paneer":{
@@ -28,7 +28,7 @@
           "score": 6,
           "positives": ["Locally Sourced", "Locally grown", "Vegetables are sustainable"],
           "negatives": ["cheese comes from livestock, methane contributions"],
-          "image": "pathtoimage.jpeg",
+          "image": "palakpaneer.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "coconut green beans":{
@@ -36,7 +36,7 @@
           "score": 7,
           "positives": [ "Locally grown beans", "Vegetables are sustainable"],
           "negatives": ["Cheese is from livestock, methane contributions"],
-          "image": "pathtoimage.jpeg",
+          "image": "greanbeans.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "steamed basmati":{
@@ -44,7 +44,7 @@
           "score": 4,
           "positives": [ "plant based"],
           "negatives": ["Imported" ],
-          "image": "pathtoimage.jpeg",
+          "image": "basmati.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "naan":{
@@ -52,7 +52,7 @@
           "score": 6,
           "positives": [ "Plant based", "Locally sourced"],
           "negatives": ["" ],
-          "image": "pathtoimage.jpeg",
+          "image": "naan.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "alfredo sauce":{
@@ -60,7 +60,7 @@
           "score": 5,
           "positives": [  "Locally sourced"],
           "negatives": ["Dairy comes from livestock" ],
-          "image": "pathtoimage.jpeg",
+          "image": "alfredosauce.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "marinara sauce":{
@@ -68,7 +68,7 @@
           "score": 5,
           "positives": ["Vegetables are good"],
           "negatives": ["sauce process"],
-          "image": "pathtoimage.jpeg",
+          "image": "marinarasauce.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "cavatappi":{
@@ -76,7 +76,7 @@
           "score": 7,
           "positives": ["Plant based", "Locally Sourced","love pasta"],
           "negatives": ["none godbles" ],
-          "image": "pathtoimage.jpeg",
+          "image": "cavatappi.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "tortellini":{
@@ -84,15 +84,15 @@
           "score": 6,
           "positives": ["Plant based", "Locally Sourced","love pasta"],
           "negatives": ["Cheese comes from livestock" ],
-          "image": "pathtoimage.jpeg",
+          "image": "tortellini.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "grilled chicken breast":{
           "name": "Grilled Chicken Breast",
           "score": 5,
           "positives": ["Locally Sourced"],
-          "negatives": ["idk" ],
-          "image": "pathtoimage.jpeg",
+          "negatives": ["livestock" ],
+          "image": "grilledchicken.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "italian sausage":{
@@ -100,15 +100,15 @@
           "score": 5,
           "positives": ["Locally Sourced"],
           "negatives": ["processing?" ],
-          "image": "pathtoimage.jpeg",
+          "image": "italiansausage.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "sliced pepperoni":{
-          "name": "Italian Sausage",
+          "name": "Sliced Pepperoni",
           "score": 4,
           "positives": ["taste good"],
           "negatives": ["processed" ],
-          "image": "pathtoimage.jpeg",
+          "image": "pepperoni.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "meatball":{
@@ -116,7 +116,7 @@
           "score": 4,
           "positives": ["taste good"],
           "negatives": ["Processed", "Livestock" ],
-          "image": "pathtoimage.jpeg",
+          "image": "meatball.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "plant based italian sausage":{
@@ -124,7 +124,7 @@
           "score": 7,
           "positives": ["Plant Based", "locally sourced"],
           "negatives": ["Sausage","processed"],
-          "image": "pathtoimage.jpeg",
+          "image": "italiansausage.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "breadsticks":{
@@ -132,7 +132,7 @@
           "score": 6,
           "positives": ["Plant Based", "Locally grown", "Bread is so so good"],
           "negatives": ["Dairy is from livestock"],
-          "image": "pathtoimage.jpeg",
+          "image": "breadsticks.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "sausage pizza":{
@@ -140,7 +140,7 @@
           "score": 4,
           "positives": ["Locally sourced"],
           "negatives": ["Dairy is from livestock", "Sausage processing"],
-          "image": "pathtoimage.jpeg",
+          "image": "sausagepizza.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "cheese pizza":{
@@ -148,7 +148,7 @@
           "score": 5,
           "positives": ["Locally sourced"],
           "negatives": ["Dairy is from livestock"],
-          "image": "pathtoimage.jpeg",
+          "image": "cheesepizza.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "pepperoni pizza":{
@@ -156,7 +156,7 @@
           "score": 4,
           "positives": ["Locally sourced", "tomato sauce is plant based"],
           "negatives": ["Dairy is from livestock","processed pepperoni"],
-          "image": "pathtoimage.jpeg",
+          "image": "pepperonipizza.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "vegan mozzarella":{
@@ -164,7 +164,7 @@
           "score": 8,
           "positives": ["Vegan", "Locally sourced?"],
           "negatives": ["Process of making the 'cheese'"],
-          "image": "pathtoimage.jpeg",
+          "image": "veganmozzarella.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "quinoa salad":{
@@ -172,7 +172,7 @@
           "score": 7,
           "positives": ["Vegan", "Plant Based"],
           "negatives": ["Imported quinoa"],
-          "image": "pathtoimage.jpeg",
+          "image": "quinoasalad.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "mediterranean pita chips":{
@@ -180,7 +180,7 @@
           "score": 8,
           "positives": ["Vegan", "Plant Based","Locally sourced"],
           "negatives": ["idk"],
-          "image": "pathtoimage.jpeg",
+          "image": "mediterraneanpitachips.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "hummus with tahini":{
@@ -188,7 +188,7 @@
           "score": 9,
           "positives": ["Vegan", "Plant based"],
           "negatives": ["bean process"],
-          "image": "pathtoimage.jpeg",
+          "image": "hummus.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "avocado":{
@@ -196,7 +196,7 @@
           "score": 8,
           "positives": ["Vegan", "Plant based"],
           "negatives": ["Non Local"],
-          "image": "pathtoimage.jpeg",
+          "image": "avocado.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "cauliflower":{
@@ -204,7 +204,7 @@
           "score": 9,
           "positives": ["Vegan", "Locally Grown"],
           "negatives": ["cabbage family", "parts of the vegetable get thrown away"],
-          "image": "pathtoimage.jpeg",
+          "image": "cauliflower.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "broccoli florets":{
@@ -212,7 +212,7 @@
           "score": 9,
           "positives": ["Vegan", "Locally Grown"],
           "negatives": ["cabbage family", "parts of the vegetable get thrown away"],
-          "image": "pathtoimage.jpeg",
+          "image": "broccoli.jpg",
           "learnmore": "www.fakewebsite.com"
      },
      "sweet potato":{
@@ -220,7 +220,7 @@
           "score": 9,
           "positives": ["Vegan", "Locally Grown"],
           "negatives": ["none"],
-          "image": "pathtoimage.jpeg",
+          "image": "sweetpotato.jpg",
           "learnmore": "www.fakewebsite.com"
      }
 }
